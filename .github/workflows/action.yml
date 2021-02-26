@@ -25,4 +25,4 @@ jobs:
       run: wget -q https://get.helm.sh/helm-v3.5.0-linux-amd64.tar.gz && tar xvf helm-v3.5.0-linux-amd64.tar.gz && mv linux-amd64/helm /home/runner/go/bin/
 
     - name: build
-      run: cd ./rancher/scripts  && ./build && ./package
+      run: cd ./scripts  && ./build && ./package
